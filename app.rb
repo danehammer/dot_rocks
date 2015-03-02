@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Behold, my website!"
+  erb :index
 end
 
 get '/resume.txt' do
