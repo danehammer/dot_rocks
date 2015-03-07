@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  erb :index
+  erb :index, :locals => {:log_content => File.read('/usr/share/chef-client/client.log')}
 end
 
 get '/resume.txt' do
