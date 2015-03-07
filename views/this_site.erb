@@ -1,9 +1,9 @@
+<div class="page-header">
+	<h1>This Site</h1>
+</div>
 This web server is using <a href="http://chef.io">Hosted Chef</a>, and with the <em>chef-client</em> run
 daemonized, every 5 minutes it runs and redeploys this application, if there is a new git commit. Check out
-the cookbooks I'm using <a href="https://github.com/danehammer/chef-repo">here</a>, and look below for the latest
-chef-client output.
-<h3>Latest chef-client output</h3>
-<div class="well">
-  TODO -- This content is static on the box right now, need to configure chef-client log
-  <pre><%= log_content %></pre>
-</div>
+the cookbooks I'm using <a href="https://github.com/danehammer/chef-repo">here</a>, and look below for example
+chef-client output. The setup of apache, passenger, sinatra, chef-client configuration itself, and deploying the latest version of the app, are all ran every five minutes.
+<h3>Example chef-client output</h3>
+<pre class="well"><%= log_content %></pre>
