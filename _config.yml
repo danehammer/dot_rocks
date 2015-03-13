@@ -1,0 +1,13 @@
+# Site settings
+title: The Hammer Clamour
+email: dane.molotok@gmail.com
+description: >
+  This is the personal site and blog of one Dane Hammer, Software Engineer
+  and DevOps enthusiast.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://danehammer.rocks" # the base hostname & protocol for your site
+twitter_username: der_hammer
+github_username:  danehammer
+
+# Build settings
+markdown: kramdown

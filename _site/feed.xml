@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Hammer Clamour</title>
+    <description>This is the personal site and blog of one Dane Hammer, Software Engineer and DevOps enthusiast.
+</description>
+    <link>http://danehammer.rocks/</link>
+    <atom:link href="http://danehammer.rocks/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 12 Mar 2015 22:58:07 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Mar 2015 22:58:07 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Switched Site to Jekyll</title>
+        <description>&lt;p&gt;I’ve been wanting to move this post from purely static content to a blog, and narrowed it down to Octopress or Jekyll. Went with my gut, installed Jekyll, and within an hour or two I had all the static content for my burgeoning website ported.&lt;/p&gt;
+
+&lt;p&gt;So tonight I’m busting out the new feature, blogging!&lt;/p&gt;
+
+&lt;p&gt;Things I liked about Jekyll: power of a templating language (Jekyll uses Liquid), but support for something very simple for pages (Markdown). With sinatra, I was already tired of thinking about the actual HTML I wanted in erb or haml. Haml is nice, but Markdown is even easier for just writing a post and having it look polished on the screen. But on the flip side, there feels like a lot more power is exposed in Jekyll, but started for you, than how far I had gotten with Sinatra and Twitter Bootstrap.&lt;/p&gt;
+
+&lt;p&gt;It also works with rackup with little to no stress, so moving from Apache + Passenger around a Sinatra app was a quick win, as well.&lt;/p&gt;
+
+&lt;p&gt;Next post will have some more meat, let’s keep this too short to suck.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://danehammer.rocks/web/jekyll/2015/03/21/switched-site-jekyll.html</link>
+        <guid isPermaLink="true">http://danehammer.rocks/web/jekyll/2015/03/21/switched-site-jekyll.html</guid>
+        
+        
+        <category>web</category>
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
